@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'gilory';
+    src: url('assets/gilory-font/Gilroy-Bold.ttf') format('truetype')
+}
+
+.registerWrapper{
+    max-height: auto;
+    font-family: 'gilory';
+}
+.registerSlideShow h3{
+    font-size: 1rem;
+    font-family: 'gilory';
+}
+.register{
+    max-height:auto ;
+}
+.carousel-text{
+    display: flex;
+    justify-content: center;
+
+}
+.carousel-indicators{
+    bottom:auto !important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 7px !important;
+    height: 7px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #ffca40 !important;
+    width: 15px !important;
+    border-radius: 50%
+}
+.login h3{
+    align-self: flex-start;
+}
+.login p{
+    font-size: 0.7rem;
+    align-self: flex-start;
+}
+.otherBtns button{
+    font-size:0.5rem ;
+}
+.login a{
+    text-decoration:none;
+    font-size: 0.6rem;
+}
+input::placeholder {
+    font-size: 10px;
+}
+.categories{
+    height: 100vh;
+
+}
+.categories h3{
+    font-size: 2rem;
+    font-family: gilory;
+    font-weight: 700;
+}
+.categories ul{
+    width: 90%;
+}
+.categories li{
+    list-style: none;
+    font-family: gilory;
+    font-weight: 900;
+}
+.categories button{
+    color:black;
+}
+.categories button .active{
+    background-color: #ffca40;
+}
+.categories h6{
+    padding-left: 2.7rem;
+}
+.profile{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 20px;
+}
+.profile h3{
+    font-size: 1.3rem;
+}
+.profile p{
+    font-size: 0.8rem;
+}
+.posBody{
+    height: 100vh;
+    overflow: auto;
+}
+.foodAndDrinks .cardFD{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    object-fit: fill;
+    padding: 15px;
+    height: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+.foodAndDrinks .cardFD:hover{
+    background-color: #ffca40;
+}
+.foodAndDrinks .cardFD div{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'gilory';
+}
+.foodAndDrinks .cardFD a:hover{
+    color:white;
+}
+.foodAndDrinks .cardFD img{
+    object-fit: contain !important;
+}
+#productDes{
+    font-size: 1.3rem;
+}
+#price{
+    font-size: 1.3rem;
+    font-family: gilory;
+    color:#ffca40;
+    font-weight: 500;
+}
+#price:hover{
+    color:white;
+}
+.offcanvas.offcanvas-start{
+    right:0 !important;
+    left: auto;
+}
+.info .infoHead{
+    color:gray
+}
+.info h3{
+    font-size: 0.8rem;
+}
+.orderInfo{
+    overflow: scroll;
+}
